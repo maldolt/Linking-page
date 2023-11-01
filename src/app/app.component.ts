@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ggangular';
+  title = 'Got Game';
+
+  challenge: string = 'Cup Flip'
+  username: string = 'Brando'
+  videoSource: string = 'http://54.89.2.39/storage/challenge_videos/brando_1.mp4'
+
 }

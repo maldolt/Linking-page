@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+// Import the Angular Material theming module
+// @import '~@angular/material/theming';
+
+// Define a custom theme
+// $custom-theme: mat.define-light-theme((
+//   color: (
+//     primary: #3f51b5,
+//     accent: #ff4081,
+//   ),
+// ));
+
+// // Include the default Angular Material theme
+// @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+// // Include your custom theme
+// @include mat.all-component-themes($custom-theme);
+
+// // Your custom styles can go here
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body{ background-color: #212121;}
