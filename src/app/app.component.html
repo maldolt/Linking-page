@@ -1,18 +1,14 @@
-<mat-toolbar class="toolbar">
-  <a href="" class="header-logo" >
-    <img src="./assets/GG-Logo.png" height="50%"></a>
-  <span><img src="./assets/GOTGAME.png"></span>
-  <span class="spacer"></span>
-  <!-- <button mat-icon-button >
-    <mat-icon>share</mat-icon>
-  </button> -->
-</mat-toolbar>
-
-<div>
-  <gg-videoplayer
-  [challenge]="challenge"
-  [username]="username"
-  [videoSource]="videoSource"
-></gg-videoplayer>
-</div> 
-
+<app-header></app-header>
+<div class="content">
+  <app-user-info>
+    
+  </app-user-info>
+  <div class="video-content">
+    <gg-videoplayer
+      [challenge]="challenge"
+      [username]="username"
+      [videoSource]="videoSource"
+    ></gg-videoplayer>
+    <app-leaderboard-comments></app-leaderboard-comments>
+  </div>
+</div>

@@ -1,17 +1,17 @@
-.spacer {
-    flex: 1 1 auto;
-  }
-
-
-.toolbar {
-    background-color: #151515;
-
-    
-}
-
-.header-logo{
+.video-content 
+{
     display: flex;
+    height: auto;
+    width: auto;
+    
+  
+}
+.content 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: inherit;
-    margin-right: 8px;
+    height: 500 px;
+    width: 800 px;
 }
